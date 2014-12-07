@@ -13,9 +13,6 @@ type JobServer struct {
     DataStorage *database.DataBackend
 }
 
-func (js *JobServer) AddJob(j job.Job) {
-    js.JobList[j.Name] = j.Body
-}
 
 func (js *JobServer) StartJob(jobName string) {
     var result job.JobResult

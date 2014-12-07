@@ -1,0 +1,16 @@
+build:
+    command: make
+    maintaneraddress: maintainer@example.com
+
+configure:
+    command: ./configure
+    maintaneraddress: maintainer@example.com
+
+ls:
+    command: ls -l && ls -l ..
+    maintaneraddress: maintainer@example.com
+
+sleep5:
+    command: sleep 5
+    maintaneraddress: maintainer@example.com
+
